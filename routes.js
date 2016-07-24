@@ -1,6 +1,6 @@
 import Router from 'koa-router';
 
-import circuitController from './circuit-controllers';
+import circuitController from './circuit-controller';
 
 const router = new Router();
 
