@@ -12,6 +12,7 @@ const circuitController = {
 
   press() {
     this.board.on('ready', () => {
+      console.log('Circuit closed');
       (new five.Led(CIRCUIT_PIN)).strobe();
     });
   }
