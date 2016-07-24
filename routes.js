@@ -1,10 +1,13 @@
 import Router from 'koa-router';
 
+import circuitController from './circuit-controllers';
 
 const router = new Router();
 
+router.get('/api/press', () => circuitController.press());
+
 router.get('/on/open', () => { /* TODO */ });
+
 router.get('/api/close', () => { /* TODO */ });
-router.get('/api/press', () => { /* TODO */ });
 
 export default router;
