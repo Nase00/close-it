@@ -4,8 +4,7 @@
   "description": "Lightweight webserver for closing a circuit on a Raspberry pi",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sudo node ./index"
   },
   "author": "seanowiecki@gmail.com",
   "license": "MIT",
@@ -17,6 +16,7 @@
     "johnny-five": "^0.9.60",
     "koa": "^2.0.0",
     "koa-router": "^7.0.1",
+    "moment": "^2.14.1",
     "raspi-io": "^6.1.0"
   },
   "devDependencies": {
